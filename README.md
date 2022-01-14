@@ -32,7 +32,7 @@
   SO THAT my website can handle large amounts of unstructured data
   ```
 
-  ## Installation Instructions
+  ## Installation Instructions :wheel_of_dharma:
  `npm init`
     &
  `npm install`
@@ -46,4 +46,4 @@
     
 
 
- [Click to view my GitHub Profile!](https://github.com/bridgetvon)
+ [Click to view my GitHub Profile!](https://github.com/bridgetvon) :skier:
