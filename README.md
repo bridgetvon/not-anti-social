@@ -2,13 +2,12 @@
 
   ### By bridgetvon * [Email me](bridget.schaefer31@gmail.com) * 
 
- 
   ## Table of contents 📚
   * [Description](#Description)
   * [Installation Instructions](#installation-Instructions)
   * [Usage Instructions](#Usage-Instructions)
+  * [Video](#Video-Link)
   * [Contributing](#Contributing)
-  
  
   # Description
  ```
@@ -22,8 +21,6 @@
  WHEN I test API POST and DELETE routes in Insomnia
  THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
  ```
-
-
 
   ## User Story :book:
   ```
@@ -43,6 +40,9 @@
 
   ## License :credit_card:
   * License Type: N/A
+
+  ## Video Link :movie_camera:
+
 
  ## Contributing 
  Bridget Schaefer 
