@@ -25,12 +25,12 @@ const userController = {
             select: '-_v'
         })
         .select('-_v')
-        .then(dbUSerData => {
+        .then(dbUserData => {
             if (!dbUserData) {
                 res.status(404).json({ message: 'No user with that id!'});
                 return;
             }
-            res.json(dbUSerData);
+            res.json(dbUserData);
         })
         .catch(err => {
             console.log(err);
@@ -41,7 +41,7 @@ const userController = {
     //create a new user 
     createUser({ body }, res) {
         User.create(body)
-        .then(dbUserData => res.json(dbUSerData))
+        .then(dbUserData => res.json(dbUserData))
         .catch(err => res.json(err));
     },
     
@@ -49,8 +49,8 @@ const userController = {
     updateUser({ params, body }, res) {
         //add validators so updated users are validated 
         User.findOneAndUpdate({ _id: params.id}, body, {new: true, runValidators: true })
-        .then(dbUSerData => {
-            if (!dbUSerData) {
+        .then(dbUserData => {
+            if (!dbUserData) {
                 res.status(404).json({ message: 'No user with this id!'});
                 return;
             }
@@ -62,12 +62,12 @@ const userController = {
     //delete a user 
     deleteUser({ params }, res) {
         User.findOneAndDelete({ _id: params.id })
-        .then(dbUSerData => {
-            if (!dbUSerData) {
+        .then(dbUserData => {
+            if (!dbUserData) {
                 res.status(404).json({ message: 'No user with this id!'});
                 return;
             }
-            res.json(dbUSerData);
+            res.json(dbUserData);
         })
         .catch(err => res.status(404).json(err));
     },
