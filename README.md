@@ -32,7 +32,7 @@
   SO THAT my website can handle large amounts of unstructured data
   ```
 
-  ## Installation Instructions :wheel_of_dharma:
+  ## Installation Instructions :hammer_and_wrench:
  `npm init`
     &
  `npm install`
