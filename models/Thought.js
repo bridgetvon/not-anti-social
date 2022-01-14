@@ -20,7 +20,7 @@ const ThoughtSchema = new Schema(
        createdBy: {
            //link with usersId
        },
-       reactions: [ReactionSchema]
+    //    reactions: [ReactionSchema]
     },
     {
         toJSON: {
@@ -36,3 +36,5 @@ ThoughtSchema.virtual('reactions').get(function() {
 })
 
 const Thought = model('Thought', ThoughtSchema);
+
+module.exports = Thought;
