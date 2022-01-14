@@ -3,7 +3,7 @@
   ### By bridgetvon * [Email me](bridget.schaefer31@gmail.com) * 
   * [Deployed Appplication]()
  
-  ## Table of contents
+  ## Table of contents 📚
   * [Description](#Description)
   * [Installation Instructions](#installation-Instructions)
   * [Usage Instructions](#Usage-Instructions)
@@ -25,7 +25,7 @@
 
 
 
-  ## User Story
+  ## User Story :book:
   ```
   AS A social media startup
   I WANT an API for my social network that uses a NoSQL database
@@ -46,4 +46,4 @@
     
 
 
- [Click to view my GitHub Profile](https://github.com/bridgetvon)
+ [Click to view my GitHub Profile!](https://github.com/bridgetvon)
