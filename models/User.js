@@ -12,7 +12,7 @@ const UserSchema = new Schema ({
         type: String,
         unique: true,
         required: true,
-        isEmail: true
+        // isEmail: true
     },
     thoughts: [
         {

@@ -41,9 +41,10 @@
     Users can add, edit, update and delete users. You can also view users friends, reactions and thoughts. Thoughts may also be added, updated and deleted. 
 
 
-  ## License 
+  ## License
   * License Type: N/A
+
+ ## Contributing 
+ Bridget Schaefer 
     
-
-
  [Click to view my GitHub Profile!](https://github.com/bridgetvon) :skier:
