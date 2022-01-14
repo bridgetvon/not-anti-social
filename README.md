@@ -1,7 +1,7 @@
 # Not Anti Social :raising_hand:
 
   ### By bridgetvon * [Email me](bridget.schaefer31@gmail.com) * 
-  * [Deployed Appplication]()
+
  
   ## Table of contents 📚
   * [Description](#Description)
@@ -41,7 +41,7 @@
     Users can add, edit, update and delete users. You can also view users friends, reactions and thoughts. Thoughts may also be added, updated and deleted. 
 
 
-  ## License
+  ## License :credit_card:
   * License Type: N/A
 
  ## Contributing 
