@@ -52,7 +52,7 @@ const thoughtController = {
 
     updateThought(req, res) {
         Thought.findOneAndUpdate({ _id: req.params.id }, {$set: req.body}, { new: true, runValidators: true })
-        .then(dbThoughtsData => {
+        .then((dbThoughtsData) => {
             if (!dbThoughtsData) {
                 res.status(404).json({ message: 'No thought with this id!'});
                 return;
@@ -62,9 +62,9 @@ const thoughtController = {
         .catch(err => res.status(404).json(err));
     },
 
-    removeThought({ params }, res) {
+    removeThought({params}, res) {
         Thought.findOneAndDelete({ _id: params.id })
-        .then(dbThoughtsData => {
+        .then((dbThoughtsData) => {
             if (!dbThoughtsData) {
                 res.status(404).json({ message: 'No thought with this id!'});
                 return;
