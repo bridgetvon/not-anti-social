@@ -46,17 +46,17 @@ const userController = {
     },
     
     //update user 
-    updateUser({ params, body }, res) {
+    updateUser( req, res) {
         //add validators so updated users are validated 
-        User.findOneAndUpdate({ _id: params.id}, body, {new: true, runValidators: true })
-        .then(dbUserData => {
+        User.findOneAndUpdate({ _id: req.params.id}, {$set: req.body}, {new: true, runValidators: true })
+        .then((dbUserData) => {
             if (!dbUserData) {
                 res.status(404).json({ message: 'No user with this id!'});
                 return;
             }
-            res.json(dbUSerData);
+            res.json(dbUserData);
         })
-        .catch(err => res.status(404).json(err));
+        .catch(err => res.status(404).json({ message: "this is a message"}));
     },
 
     //delete a user 
